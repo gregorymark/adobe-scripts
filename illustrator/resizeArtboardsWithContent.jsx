@@ -42,7 +42,7 @@ if (app.documents.length > 0) {
         } catch (error) {
             if(!resizeWarning) {
                 resizeWarning = true;
-                alert("New artboard is greater than the visible document bounds. Artboards are resized from top, left.");
+                alert("Some artboards have not been resized. Artboards are resized from top, left.");
             }
         } 
     }
